@@ -1,0 +1,83 @@
+.game_header_section {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game_header_section_menu {
+    display: flex;
+    gap: 32px;
+}
+
+. .game_header_section_logo {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.game_header_section_sort {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    width: 160px;
+    height: 44px;
+    border: 1px solid #BC3CD8;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+
+.games_section_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 28px;
+
+}
+
+
+.games_header_section_list_item {
+    background-image: url(/assets/icons/game_card_img.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 290px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.games_header_section_description {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+    height: 64px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), rgba(170, 20, 240, 0.75);
+}
+
+.games_header_section_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination_count {
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: 1px solid #DFE3E8;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 5px;
+}

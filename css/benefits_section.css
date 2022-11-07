@@ -1,0 +1,79 @@
+.benefits_section {
+    height: 130px;
+    display: flex;
+}
+
+.benefits_section_box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.benefits_section_head {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+}
+
+.benefits_section_text {
+    padding-top: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.benefits_section_list {
+    display: flex;
+}
+
+.benefits_section_left_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.benefits_section_right_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.benefits_img_victory {
+    background-image: url(/assets/icons/emoji_victory.svg);
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+}
+
+.benefits_img_hands {
+    background-image: url(/assets/icons/emoji_hands.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 21px;
+}
+
+.benefits_img_lamp {
+    background-image: url(/assets/icons/emoji_lamp.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 28px;
+}
+
+.benefits_img_mark {
+    background-image: url(/assets/icons/emoji.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 22px;
+}
+
+.benefits_section_img_text {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+}

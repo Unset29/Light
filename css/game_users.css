@@ -1,0 +1,135 @@
+.user_header_section {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_header_section_menu {
+    display: flex;
+    gap: 32px;
+}
+
+. .user_header_section_logo {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.user_header_section_sort {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    width: 160px;
+    height: 44px;
+    border: 1px solid #BC3CD8;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.user_section_games {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.pagination_count {
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: 1px solid #DFE3E8;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.user_section_avatar {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.avatar {
+    background-image: url(/assets/img/avatar.png);
+    width: 44px;
+    height: 44px;
+}
+
+.user_section_name {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.name {
+    height: 44px;
+}
+
+.user_section_country {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.country {
+    height: 44px;
+}
+
+.user_section_age {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.age {
+    height: 44px;
+}
+
+.user_section_email {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.email {
+    height: 30px
+}
+
+.user_section_role {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.role {
+    height: 44px;
+}
+
+.user_section_actions {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.dots {
+    background-image: url(/assets/icons/dots.png);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 55px;
+}

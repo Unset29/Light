@@ -1,0 +1,40 @@
+.game_dialog {
+    background-color: black;
+    align-items: center;
+    width: 690px;
+}
+
+.game_dialog_img {
+    background-image: url(/assets/icons/game_dialog_img.png);
+    background-repeat: no-repeat;
+    width: 688px;
+    height: 534px;
+}
+
+.game_dialog_name {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.game_dialog_description {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.game_dialog_icon {
+    width: 48px;
+    height: 48px;
+    padding: 10px 10px 0 0;
+}
+
+.game_dialog_user {
+    display: flex;
+}

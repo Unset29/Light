@@ -1,0 +1,50 @@
+.new_game_form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+    background-color: black;
+    align-items: center;
+    gap: 14px;
+}
+
+.new_game_input {
+    width: 560px;
+    height: 63px;
+    border: 2px solid #C8D1E6;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.new_game_input:focus {
+    color: white;
+}
+
+.new_game_input::placeholder {
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.new_game_btn {}
+
+.new_game_line {
+    width: 560px;
+    height: 65px;
+    background: #534686;
+    border-radius: 0px 64px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new_game_text {
+    padding-left: 10px;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+}

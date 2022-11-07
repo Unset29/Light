@@ -1,0 +1,37 @@
+.game_section_box {
+    display: flex;
+    max-width: 740px;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.game_section_img {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.game_section_info {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.game_section_info_head {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.hero_main_info_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Inter', sans-serif;
+}
+
+.game_section_button {
+    align-self: flex-start;
+}

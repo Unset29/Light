@@ -1,0 +1,20 @@
+.experience_line {
+    height: 93px;
+    background: #534686;
+    border-radius: 0px 64px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience_line_text {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.experience_line_img {
+    background-image: url(/assets/icons/video_img.png);
+    width: 164px;
+    height: 61px;
+}
